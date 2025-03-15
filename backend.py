@@ -3,6 +3,7 @@ from flask_cors import CORS
 import ollama
 import json
 
+ollama.pull('mistral')
 app = Flask(__name__)
 CORS(app)
 
