@@ -5,7 +5,6 @@ from utils import analyze_resume_match, extract_keywords
 
 # Configure the backend URL
 BACKEND_URL = "http://127.0.0.1:5000"  # Local development
-# BACKEND_URL = "https://your-huggingface-space-url"  # When deployed
 
 def get_career_recommendations(academic_performance, interests, skills):
     """Get career recommendations from backend"""
@@ -42,7 +41,6 @@ def screen_resume(resume, job_description):
             },
             timeout=60
         )
-        
         if response.status_code == 200:
             backend_results = response.json()
             # Combine local and backend analysis
@@ -57,7 +55,7 @@ def screen_resume(resume, job_description):
 with gr.Blocks(title="Career and Resume Assistant") as demo:
     gr.Markdown("# Career and Resume Assistant")
     
-    with gr.Tab("Career Recommendations"):
+    with gr.Tab("Career Recommendation"):
         gr.Markdown("## Personalized Career Recommendations")
         gr.Markdown("Analyze your academic performance, interests and skills to get tailored career path suggestions.")
         

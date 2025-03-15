@@ -44,6 +44,7 @@ def fetch_job_trends(skills):
         "data analysis": {"demand": "Very High", "growth": "+20%", "avg_salary": "$125,000"},
         "machine learning": {"demand": "Very High", "growth": "+25%", "avg_salary": "$135,000"},
         "web development": {"demand": "High", "growth": "+10%", "avg_salary": "$95,000"},
+        
     }
     
     results = {}
