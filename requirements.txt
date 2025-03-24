@@ -1,0 +1,20 @@
+# Core LangChain packages (ensure compatibility with your code)
+langchain
+langchain_community
+langchain_huggingface
+
+# Vector store library (CPU version)
+faiss-cpu
+
+# Environment and HTTP libraries
+python-dotenv
+requests
+
+# Backend dependencies
+Flask
+flask-cors
+PyMuPDF
+
+# Frontend dependencies
+gradio
+pandas

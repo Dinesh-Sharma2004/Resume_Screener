@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+
+# Installer logs and metadata
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Flask specific folders
+instance/
+.webassets-cache
+
+# PyMuPDF temporary files (if any)
+*.tmp
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Log files
+*.log
+
+# Gradio cache directory (if generated)
+.gradio/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+
