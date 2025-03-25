@@ -14,7 +14,7 @@ requests
 Flask
 flask-cors
 PyMuPDF
-
+gunicorn
 # Frontend dependencies
 gradio
 pandas
